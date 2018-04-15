@@ -17,8 +17,10 @@ Vino-Server
 		- Automaticamente configurar roteador UPnP para abrir e encaminhar portas: false
 	> Mostrar ícone da área de notificações: Nunca
 
-<p align="center">
 	![vino-preferences](img/1.vino-preferences.png)
+
+<p align="center">
+	<img src="img/1.vino-preferences.png">
 </p>
 
 3- Criar script "vino.sh" para habilitar Vino-Server.
