@@ -1,23 +1,24 @@
 Vino-Server 
 ==================================================================================
 
-1- Ao logar com o usuário não root execute:
+1- Ao logar com o usuÃ¡rio nÃ£o root execute:
 
 	vino-preferences
 
 
-2- Preencha os campos solicitados com as informações abaixo:
+2- Preencha os campos solicitados com as informaÃ§Ãµes abaixo:
 
 	> Compartilhamento
-		- Permitir que outros usuários vejam sua aréa de trabalha: true
-		- Permitir que outros usuários controlem sua área de trablaho: true
-	> Segurança
-		- Você deve confirmar cada acesso à esta máquina: false
-		- Exigir que o usuário digite esta senha: ******
+		- Permitir que outros usuÃ¡rios vejam sua arÃ©a de trabalha: true
+		- Permitir que outros usuÃ¡rios controlem sua Ã¡rea de trablaho: true
+	> SeguranÃ§a
+		- VocÃª deve confirmar cada acesso Ã  esta mÃ¡quina: false
+		- Exigir que o usuÃ¡rio digite esta senha: ******
 		- Automaticamente configurar roteador UPnP para abrir e encaminhar portas: false
-	> Mostrar ícone da área de notificações: Nunca
-
-<span style="display:block;text-align:center">![vino-preferences](img/1.vino-preferences.png)</span>
+	> Mostrar Ã­cone da Ã¡rea de notificaÃ§Ãµes: Nunca
+<p align="center">
+![vino-preferences](img/1.vino-preferences.png)</span>
+</p>
 
 3- Criar script "vino.sh" para habilitar Vino-Server.
 
@@ -30,11 +31,11 @@ Vino-Server
 		gsettings set org.gnome.Vino require-password false
 		/usr/lib/vino/vino-server &
 
-4- Atribuir permisão de execução ao script
+4- Atribuir permisÃ£o de execuÃ§Ã£o ao script
 
 	chmod +x vino.sh
 
-5- Colocar script na inicialização do usuário
+5- Colocar script na inicializaÃ§Ã£o do usuÃ¡rio
 
 	echo "./vino.sh" >> /home/user/.profile 
 
