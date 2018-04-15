@@ -1,23 +1,21 @@
-Vino-Server 
+Ubuntu 16 - Vino-Server 
 ==================================================================================
 
-1- Ao logar com o usuÃ¡rio nÃ£o root execute:
+1- Ao logar com o usuário não root execute:
 
 	vino-preferences
 
 
-2- Preencha os campos solicitados com as informaÃ§Ãµes abaixo:
+2- Preencha os campos solicitados com as informações abaixo:
 
 	> Compartilhamento
-		- Permitir que outros usuÃ¡rios vejam sua arÃ©a de trabalha: true
-		- Permitir que outros usuÃ¡rios controlem sua Ã¡rea de trablaho: true
-	> SeguranÃ§a
-		- VocÃª deve confirmar cada acesso Ã  esta mÃ¡quina: false
-		- Exigir que o usuÃ¡rio digite esta senha: ******
+		- Permitir que outros usuários vejam sua aréa de trabalha: true
+		- Permitir que outros usuários controlem sua área de trablaho: true
+	> Segurança
+		- Você deve confirmar cada acesso à esta máquina: false
+		- Exigir que o usuário digite esta senha: ******
 		- Automaticamente configurar roteador UPnP para abrir e encaminhar portas: false
-	> Mostrar Ã­cone da Ã¡rea de notificaÃ§Ãµes: Nunca
-
-	![vino-preferences](img/1.vino-preferences.png)
+	> Mostrar ícone da área de notificações: Nunca
 
 <p align="center">
 	<img src="img/1.vino-preferences.png">
@@ -34,12 +32,15 @@ Vino-Server
 		gsettings set org.gnome.Vino require-password false
 		/usr/lib/vino/vino-server &
 
-4- Atribuir permisÃ£o de execuÃ§Ã£o ao script
+4- Atribuir permisão de execução ao script
 
 	chmod +x vino.sh
 
-5- Colocar script na inicializaÃ§Ã£o do usuÃ¡rio
+5- Colocar script na inicialização do usuário
 
 	echo "./vino.sh" >> /home/user/.profile 
 
-		
+6- Deslogue e logue novamente com usuário ao qual teve vino-server habilitado.
+
+7- O vino-server será iniciado após o usuário habilitado com o vino-server logar. 
+Logo apóso o login, você poderá acessar remotamente por uma vnc-client.

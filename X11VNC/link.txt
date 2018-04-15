@@ -1,0 +1,4 @@
+# X11VNC
+*http://cleber95.wixsite.com/cleberianes/single-post/2016/10/14/Acesso-remoto-a-pc-com-Linux-usando-x11vnc
+**https://help.ubuntu.com/community/VNC/Servers
+https://wiki.archlinux.org/index.php/x11vnc
