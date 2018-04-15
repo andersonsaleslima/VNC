@@ -14,7 +14,7 @@ Vino-Server
 		gsettings set org.gnome.Vino require-password false
 		/usr/lib/vino/vino-server &
 
-![vino-preferences](VINO/img/vino-preferences.png)
+![vino-preferences](img/1.vino-preferences.png)
 
 
 2- Atribuir permisão de execução ao script
