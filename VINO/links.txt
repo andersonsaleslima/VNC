@@ -4,5 +4,8 @@ https://pplware.sapo.pt/linux/dica-sabe-como-mudar-o-nome-do-seu-ubuntu/
 http://ask.xmodulo.com/enable-configure-desktop-sharing-linux-mint-cinnamon-desktop.html
 *https://forums.linuxmint.com/viewtopic.php?t=167973
 
-# Para se testado posteriormente
+# Vino-Server
+https://wiki.archlinux.org/index.php/Vino
+
+# Para ser testado posteriormente
 http://www.pradeepadiga.me/blog/2017/04/10/how-to-remote-desktop-to-linux-mint/
