@@ -1,7 +1,7 @@
 Ubuntu 16 - Vino-Server 
 ==================================================================================
 
-1- Ao logar com o usuário não root execute:
+1- Ao logar com o usuário não root, execute:
 
 	vino-preferences
 
