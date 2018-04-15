@@ -14,11 +14,14 @@ Vino-Server
 		gsettings set org.gnome.Vino require-password false
 		/usr/lib/vino/vino-server &
 
-2- Atribuir permisão de execução ao script
+![vino-preferences](img/vino-preferences.png)
+
+
+2- Atribuir permisÃ£o de execuÃ§Ã£o ao script
 
 	chmod +x vino.sh
 
-3- Colocar script na inicialização do usuário
+3- Colocar script na inicializaÃ§Ã£o do usuÃ¡rio
 
 	echo "./vino.sh" >> /home/user/.profile
 
